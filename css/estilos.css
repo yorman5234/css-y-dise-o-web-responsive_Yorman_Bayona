@@ -1,0 +1,18 @@
+@media (min-width: 900px){
+  body{
+    background-color: #02010a;
+
+  }
+
+#contenido img{
+  box-shadow: 2px 2px #02010a;
+}
+
+#contenido{
+  width: 900px;
+  margin: auto;
+
+}
+
+
+}
