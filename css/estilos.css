@@ -17,6 +17,8 @@
 
 }
 
+/*----HEADER---*/
+
 header{
   background-color: #5b7989;
   color: white;
@@ -45,6 +47,8 @@ nav{
   margin-right: 20px;
   display: flex;
 }
+
+/*---CUERPO DE LA PAGINA---*/
 
 #imagen-principal{
   display: flex;
@@ -106,5 +110,35 @@ nav{
   box-shadow: 2px 2px #82c3a6;
 
 }
+
+/*---FOOTER DE LA PAGINA---*/
+
+footer{
+  width: 100%;
+  height: 180px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #C6d5c5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+footer > div > p{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 2em;
+}
+
+footer p{
+  display: inline;
+}
+
+footer article{
+  font-size: 1.2em;
+}
+
+
 
 }
