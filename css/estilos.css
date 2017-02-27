@@ -1,3 +1,5 @@
+/*Esta es la version para pantallas de escritorio*/
+
 @media (min-width: 900px){
   body{
     background-color: #02010a;
@@ -44,5 +46,65 @@ nav{
   display: flex;
 }
 
+#imagen-principal{
+  display: flex;
+  width: 100%;
+  height:340px;
+  background-color: #82c3a6;
+}
+
+#imagen-principal img{
+  width: 60%;
+  margin: auto;
+}
+
+.imagenes-secundarias{
+  width: 100%;
+  height: 300px;
+  background-color: #d5c75f;
+  display: flex;
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+}
+
+.imagenes-secundarias a{
+  color: black;
+}
+
+.imagenes-secundarias img{
+  width: 60%;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid black;
+}
+
+#web-img{
+  width: 60%;
+  height: 200px;
+}
+
+#imagen-secundaria-1 img{
+  transition-property:box-shadow, transform;
+  transition-duration: 1s;
+}
+
+#imagen-secundaria-1 img:hover{
+  transform: rotateZ(10deg);
+  box-shadow:2px 2px #82c3a6;
+
+}
+
+#imagen-secundaria-2 img{
+  transition-property: transform, box-shadow;
+  transition-duration: 1s;
+}
+
+#imagen-secundaria-2 img:hover{
+  transform: translateY(-5px) translateX(20px);
+  box-shadow: 2px 2px #82c3a6;
+
+}
 
 }
