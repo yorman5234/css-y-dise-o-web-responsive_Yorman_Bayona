@@ -133,7 +133,6 @@ footer{
 
 footer > div > p{
   margin-top: 20px;
-  margin-left: 10px;
   font-size: 2em;
 }
 
@@ -151,6 +150,11 @@ footer article{
 /*Este es el media qery para dispositivos moviles*/
 
 @media (max-width: 900px){
+
+  #contenido img{
+    box-shadow: 2px 2px #02010a;
+  }
+
 
   /*----HEADER---*/
 
@@ -184,6 +188,110 @@ nav{
 
   }
 
+  /*---CUERPO DE LA PAGINA---*/
+
+#imagen-principal{
+    width: 100%;
+    height:200px;
+    background-color: #82c3a6;
+    margin: auto;
+    display: flex;
+  }
+
+#contenedor-imagen{
+    width: 100%;
+    display: flex;
+
+  }
+
+#imagen-principal img{
+    width: 70%;
+    margin: auto;
+    max-width: 330px;
+  }
+
+  .imagenes-secundarias{
+    width: 100%;
+    height: 500px;
+    background-color: #d5c75f;
+    display: flex;
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    flex-direction: column;
+  }
+
+  #imagen-secundaria-1, #imagen-secundaria-2{
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagenes-secundarias a{
+    color: black;
+    margin: auto;
+    margin-top: 0;
+  }
+
+  .imagenes-secundarias img{
+    width: 100%;
+    border: 1px solid black;
+    margin: auto;
+    max-width: 330px;
+    max-height:150px;
+
+  }
+  #imagen-secundaria-1 img{
+    transition-property:box-shadow, transform;
+    transition-duration: 1s;
+  }
+
+  #imagen-secundaria-1 img:hover{
+    transform: rotateZ(10deg);
+    box-shadow:2px 2px #82c3a6;
+
+  }
+
+  #imagen-secundaria-2 img{
+    transition-property: transform, box-shadow;
+    transition-duration: 1s;
+  }
+
+  #imagen-secundaria-2 img:hover{
+    transform: translateY(-5px) translateX(20px);
+    box-shadow: 2px 2px #82c3a6;
+
+  }
+
+  /*---FOOTER DE LA PAGINA---*/
+
+  footer{
+    width: 100%;
+    height: 600px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #C6d5c5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-left: 50px;
+  }
+
+  footer > div > p{
+    margin-top: 20px;
+    font-size: 2em;
+  }
+
+  footer p{
+    display: inline;
+  }
+
+  footer article{
+    font-size: 1.2em;
+  }
 
 
 }
