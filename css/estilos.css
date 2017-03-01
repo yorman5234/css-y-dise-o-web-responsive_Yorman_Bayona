@@ -57,9 +57,15 @@ nav{
   background-color: #82c3a6;
 }
 
-#imagen-principal img{
+#contenedor-imagen{
   width: 60%;
+  height: 300px;
+  display: flex;
   margin: auto;
+}
+
+#imagen-principal img{
+  width: 100%;
 }
 
 .imagenes-secundarias{
