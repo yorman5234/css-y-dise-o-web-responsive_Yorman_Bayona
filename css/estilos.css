@@ -151,6 +151,11 @@ footer article{
 
 @media (max-width: 900px){
 
+  body{
+    background-color: #02010a;
+    font-family: dancing script;
+  }
+
   #contenido img{
     box-shadow: 2px 2px #02010a;
   }
