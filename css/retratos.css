@@ -13,7 +13,16 @@
 #contenido{
   width: 900px;
   margin: auto;
+  animation-name: animacion;
+  animation-duration: 1s;
+}
 
+@keyframes animacion{
+  0%{ margin-top: 150%;}
+
+  60%{margin-top: -5%;}
+
+  100%{margin-top: 0%;}
 
 }
 
@@ -123,6 +132,22 @@ footer article{
 
 #contenido img{
   box-shadow: 2px 2px #02010a;
+}
+
+#contenido{
+  width: 100%;
+  animation-name: animacion;
+  animation-duration: 1s;
+
+}
+
+@keyframes animacion{
+  0%{ margin-top: 150%;}
+
+  60%{margin-top: -5%;}
+
+  100%{margin-top: 0%;}
+
 }
 
 /*----HEADER---*/
